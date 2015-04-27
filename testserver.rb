@@ -4,5 +4,5 @@ require 'sinatra'
 enable 'sessions'
 
 get "/" do
-erb :testserver
+	redirect("/testserver.html")
 end
