@@ -4,5 +4,5 @@ require 'sinatra'
 enable 'sessions'
 
 get "/" do
-    redirect("./textserver.html")
+    "hello"
 end
