@@ -4,5 +4,5 @@ require 'sinatra'
 enable 'sessions'
 
 get "/" do
-    "hello"
+erb :testserver
 end
